@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function tweetMessage() {
-    const message = "Pancake GreenFlash\n#PancakeBNK48\n#GreenFlashConceptDay1";
+    const message = "Pancake GreenFlash\n#PancakeBNK48\n#GreenFlashConceptDay3";
     const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}`;
     window.open(tweetUrl, '_blank');
 }
